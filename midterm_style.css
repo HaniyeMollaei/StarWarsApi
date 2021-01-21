@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	background-image: url('background.jpg');
+	background-color: gray;
+	opacity: 0.8;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	position: relative;
+	height: 100%;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+.content{
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: white;
+	opacity: 0.9;
+	border: 2px solid white;
+ 	border-radius: 20px;
+
+}
+
+.item{
+	width: 50% fixed;
+	color : white ;
+	font-size: 20px;
+ 	padding: 5px;
+ 	margin: 4px;
+ 	background-color: tomato;
+}
+
+.data{
+	position: relative;
+	border-radius: 20px;
+	border: 2px solid tomato;
+	padding :10px;
+}
+
+.ship-data{
+	width: 50% fixed;
+	position: relative;
+	background-color: white;
+	color :tomato;
+	font-size: 18px;
+	border-radius: 20px;
+	padding :10px;
+	font-family: serif;
+}
